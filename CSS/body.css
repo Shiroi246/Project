@@ -1,0 +1,11 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.landing_page, .footer{
+  margin: 44px 96px 0px 96px;
+}

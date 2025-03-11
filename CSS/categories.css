@@ -1,0 +1,115 @@
+.title_categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 87px;
+  gap: 12px;
+  padding-bottom: 96px;
+}
+.cate {
+  width: auto;
+  display: flex;
+  align-self: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.command_categories {
+  display: flex;
+  align-self: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(30, 30, 30, 0.5);
+}
+
+.main_categories {
+  background-color: rgba(193, 220, 220, 1);
+  width: 1349px;
+  height: 841px;
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  position: relative;
+}
+.natural_plant,
+.artificial_plant {
+  display: flex;
+  width: 352px;
+  height: 551px;
+  gap: 12px;
+  flex-direction: column;
+  position: absolute;
+  top: -48px;
+}
+
+.plant_accessories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.natural_plant {
+  left: 70px;
+}
+
+.artificial_plant {
+  right: 70px;
+}
+
+.text_categories {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.horem {
+  display: flex;
+  width: 352px;
+  height: 54px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(30, 30, 30, 0.5);
+  padding-bottom: 24px;
+}
+.button_categories {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    max-width: 147px;
+    height: 51px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    gap: 8px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #1E1E1E;
+    border: 1px solid #ccc; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button_categories:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.button_categories img {
+    width: 20px;
+    height: 20px;
+}
+
+
