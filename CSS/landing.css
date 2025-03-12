@@ -4,19 +4,22 @@
   width: 100%;
   padding-bottom: 48px;
 }
+
 .hero_logo {
   padding-right: 96px;
   width: 142px;
   height: 39px;
 }
+
 .hero_button {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding-top: 4px;
 }
+
 .hero_button button {
-  color: rgba(30, 30, 30, 0.6); 
+  color: rgba(30, 30, 30, 0.6);
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -25,7 +28,7 @@
 }
 
 .hero_button button:hover {
-  color: #1e1e1e; 
+  color: #1e1e1e;
   transform: scale(1.1);
 }
 
@@ -40,12 +43,14 @@
   font-size: 20px;
   gap: 48px;
 }
+
 .hero-image {
   display: flex;
   width: 216px;
   height: 24px;
   gap: 48px;
 }
+
 .hero-image button {
   width: 24px;
   height: 24px;
@@ -54,6 +59,7 @@
 /* ---------------------------------------------------------------- */
 
 .main {
+  align-items: center;
   display: flex;
   height: 512px;
   background-color: rgba(193, 220, 220, 1);
@@ -73,6 +79,7 @@
   color: black;
   line-height: 64px;
 }
+
 .main_intro {
   display: flex;
   width: auto;
@@ -81,17 +88,20 @@
   font-weight: 500;
   padding-top: 20px;
 }
+
 .main_intro .number {
   font-size: 32px;
   line-height: 100%;
   letter-spacing: 0%;
   padding-bottom: 15px;
 }
+
 .main_intro .letter {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
 }
+
 .search-container {
   display: flex;
   align-items: center;
@@ -103,6 +113,7 @@
 }
 
 .search_bar {
+
   flex: 1;
   border: 2px solid transparent;
   outline: none;
@@ -113,18 +124,6 @@
   background-color: white;
 }
 
-.search_bar:hover {
-  border-color: #a8c7c7;
-  background-color: #f9fdfd;
-  box-shadow: 0 0 6px rgba(168, 199, 199, 0.3);
-}
-
-.search_bar:focus {
-  border-color: #81a2a2;
-  background-color: #ffffff;
-  box-shadow: 0 0 8px rgba(129, 162, 162, 0.4);
-  transform: scale(1.02); /*phóng to thu nhỏ phần tử */
-}
 
 .search_button {
   background: rgba(193, 220, 220, 1);
@@ -135,10 +134,12 @@
   transition: 0.3s;
 }
 
+
 .search_button:hover {
   background: rgba(173, 200, 200, 1);
   transform: scale(1.05);
 }
+
 .main_image {
   position: relative;
   display: flex;
@@ -174,12 +175,14 @@
   width: 256px;
   height: 264px;
 }
+
 .heading {
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
   padding-bottom: 12px;
 }
+
 .best_intro {
   width: 196px;
   height: 81px;
@@ -201,10 +204,12 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
 .best_button:hover {
   background-color: 0.3s ease, transform 0.2s ease;
   transform: scale(1.05);
 }
+
 .best_image {
   display: flex;
   gap: 78px;
@@ -212,8 +217,8 @@
 
 .best_image img {
   cursor: pointer;
-  width: 250px; 
-  height: auto; 
+  width: 250px;
+  height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -226,4 +231,5 @@
   height: 61px !important;
   display: block;
 }
+
 /* ------------------------------------------------------------------------------------------- */
